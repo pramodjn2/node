@@ -94,8 +94,9 @@ app.post('/users', function(req, res) {
 
 		data.push(myArray);
     }
+    
     res.send(data);
-  });
+  }); 
 });
 
 
